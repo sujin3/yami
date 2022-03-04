@@ -8,18 +8,116 @@ a, a:link {
     text-decoration: none;
     color: inherit;
 }
+
+
 /* ===================== 공지사항 팝업 ======================== */
-
-
-
-
-
+#modal {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -250px 0 0 -200px;
+    width: 400px;
+    height: 500px;
+    background: gold;
+}
 
 /* ===================== 헤더영역 ======================== */
+.header-top {
+    width: 1200px;/* 1200px/16px=75rem */
+    margin: 0 auto;
+    padding: 25px;
+    overflow: hidden;
+    /* display: flow-root; */
+    /* .header-top + nav {
+        clear: both;
+    }*/
+    /* .header-top::after { clearfix : hack < standard
+        content: ''
+        display: block;
+        clear: both;
+    }*/
+}
+.header-logo {
+    float: left;
+}
+.header-links {
+    float: right;
+}
+.header-links li {
+    float: left;
+    margin: 15px;
+    font-size: 13px;
+    color: #888;
+    font-weight: 500;
+}
+.header-links li:hover {
+    color: #000;
+}
 
+.header-bottom {
+    border-top: 1px solid #d60c00;
+}
+#gnb {
+    padding: 25px 0;
+    text-align: center;
+}
+#gnb li {
+    display: inline-block;
+    padding: 0 30px;
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+}
+#gnb li:hover {
+    color: #d60c00;
+}
 
+/* ===================== 비주얼영역 ======================== */
 
-
+.hero {
+    display: flex;
+    justify-content: center;
+    background: url(../images/hero-img.jpg);
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+.slogan-text {
+    color: white;
+    position: absolute;
+    left: 10%;
+    top: 40%;
+}
+.slogan-text p:nth-child(1) {
+    font-size: 2rem;
+    margin: 10px;
+}
+.slogan-text p:nth-child(2) {
+    font-size: 3rem;
+}
+.down-btn {
+    position: absolute;
+    left: 10%;
+    top: 65%;
+    color: #d60c00;
+    border: 1px solid white;
+    border-radius: 30px;
+    background: white;
+    padding: 15px 20px;
+}
+/* ===================== 아이콘 링크 영역 ======================== */
+.icon-links {
+    background: #d60c00;
+}
+.icon-links ul {
+    width: 900px;
+    margin: 0 auto;
+    font-size: 0;
+}
+.icon-links li {
+    display: inline-block;
+}
 
 /* ===================== 본문영역 ======================== */
 

@@ -15,8 +15,8 @@
 </head>
 <body>
     <h1 class="d-none">스마일푸드 야미</h1>
-    <div id="modal">
-        <div class="modal-wrap d-none">
+    <div id="modal" class="d-none">
+        <div class="modal-wrap">
             <h2>배송지연 알림</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae doloribus blanditiis deserunt iure sit soluta odit tenetur deleniti ut, quia doloremque dolorum perferendis! Aliquam aliquid cupiditate, numquam recusandae in earum.</p>
             <p>죄송합니다.</p>
@@ -24,31 +24,41 @@
     </div>
     <header>
         <h2 class="d-none">야미 헤더 - 브랜드 로고와 전체메뉴, 기타메뉴 등</h2>
-        <div class="header-logo">
-            <a href="#">
-                <img src="images/logo.gif" alt="yami">
-            </a>
-        </div>
-        <ul class="header-links">
-            <li><a href="#">로그인</a></li>
-            <li><a href="#">회원가입</a></li>
-            <li><a href="#">장바구니</a></li>
-            <li><a href="#">마이페이지</a></li>
-        </ul>
-        <nav>
-            <h3 class="d-none">전역메뉴</h3>
-            <ul class="gnb"><!-- Global Navigation Bar : 전역메뉴 -->
-                <li><a href="#">야미소개</a></li>
-                <li><a href="#">생산공정</a></li>
-                <li><a href="#">제품소개</a></li>
-                <li><a href="#">고객센터</a></li>
+        <div class="header-top">
+            <div class="header-logo">
+                <a href="#">
+                    <img src="images/logo.gif" alt="yami">
+                </a>
+            </div>
+            <ul class="header-links">
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+                <li><a href="#">장바구니</a></li>
+                <li><a href="#">마이페이지</a></li>
             </ul>
-        </nav>
+        </div>
+        <div class="header-bottom">
+            <nav>
+                <h3 class="d-none">전역메뉴</h3>
+                <ul id="gnb"><!-- Global Navigation Bar : 전역메뉴 -->
+                    <li><a href="#">야미소개</a></li>
+                    <li><a href="#">생산공정</a></li>
+                    <li><a href="#">제품소개</a></li>
+                    <li><a href="#">고객센터</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <div class="hero">   
-        <img src="images/visual.jpg" alt="hero">
+        <div class="slogan-text">
+            <p>함께하면 행복해지는</p>
+            <p>스마일푸드 야미</p>
+        </div>
+        <div class="down-btn">
+            <a href="#">기업 소개서</a>
+        </div>
     </div>
-    <div class="links">
+    <div class="icon-links">
         <ul>
             <li>
                 <a href="#">
