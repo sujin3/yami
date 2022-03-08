@@ -133,8 +133,25 @@ a, a:link {
     overflow: hidden;
     margin-bottom: 100px;
 }
-
-
+/* ===================== 야미소개 스타일 ======================== */
+.breadcrumb {
+    background: #d60c00;
+    color: white;
+    max-width: 100%;
+    padding: 20px;
+}
+.breadcrumb-wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+.btns {
+    display: flex;
+    justify-content: left;
+}
+.btns li {
+    margin: 0 20px;
+}
 
 /* ===================== 푸터영역 ======================== */
 aside {
