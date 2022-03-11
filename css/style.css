@@ -197,9 +197,14 @@ a, a:link {
     margin: 200px 0 100px 0;
 
 }
+.history-wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
 .history-num {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 30px;
 }
 .history-num li {
     background: #888;
@@ -213,10 +218,11 @@ a, a:link {
     margin: 0 0 200px 0;
 }
 .history-sum li {
+    width: 300px;
     background: #f1f1f1;
     font-size: 15px;
-    margin: 10px;
-    padding: 10px 20px;
+    margin: 10px 0;
+    padding: 20px 20px 60px 20px;
 }
 /* ===================== 푸터영역 ======================== */
 aside {
